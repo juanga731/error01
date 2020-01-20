@@ -1,0 +1,282 @@
+2020-01-20 11:47:39,415: Error running WSGI application
+2020-01-20 11:47:39,423: django.core.exceptions.ImproperlyConfigured: The app module <module 'basic_app' (namespace)> has multiple filesystem locations (['/home/juanga731/Django_PortillaCourse_Deployment01/17-Django_Level_Four/learning_templates/basic_app', './basic_app']); you must configure this app with an AppConfig subclass with a 'path' class attribute.
+2020-01-20 11:47:39,423:   File "/var/www/juanga731_pythonanywhere_com_wsgi.py", line 54, in <module>
+2020-01-20 11:47:39,423:     django.setup()
+2020-01-20 11:47:39,423: 
+2020-01-20 11:47:39,424:   File "/usr/lib/python3.8/site-packages/django/__init__.py", line 24, in setup
+2020-01-20 11:47:39,424:     apps.populate(settings.INSTALLED_APPS)
+2020-01-20 11:47:39,424: 
+2020-01-20 11:47:39,424:   File "/usr/lib/python3.8/site-packages/django/apps/registry.py", line 91, in populate
+2020-01-20 11:47:39,424:     app_config = AppConfig.create(entry)
+2020-01-20 11:47:39,424: 
+2020-01-20 11:47:39,425:   File "/usr/lib/python3.8/site-packages/django/apps/config.py", line 165, in create
+2020-01-20 11:47:39,425:     return cls(app_name, app_module)
+2020-01-20 11:47:39,425: 
+2020-01-20 11:47:39,425:   File "/usr/lib/python3.8/site-packages/django/apps/config.py", line 40, in __init__
+2020-01-20 11:47:39,425:     self.path = self._path_from_module(app_module)
+2020-01-20 11:47:39,425: 
+2020-01-20 11:47:39,425:   File "/usr/lib/python3.8/site-packages/django/apps/config.py", line 70, in _path_from_module
+2020-01-20 11:47:39,426:     raise ImproperlyConfigured(
+2020-01-20 11:47:39,426: ***************************************************
+2020-01-20 11:47:39,426: If you're seeing an import error and don't know why,
+2020-01-20 11:47:39,426: we have a dedicated help page to help you debug: 
+2020-01-20 11:47:39,426: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2020-01-20 11:47:39,426: ***************************************************
+2020-01-20 12:00:41,159: Error running WSGI application
+2020-01-20 12:00:41,166: django.core.exceptions.ImproperlyConfigured: The app module <module 'basic_app' (namespace)> has multiple filesystem locations (['/home/juanga731/Django_PortillaCourse_Deployment01/17-Django_Level_Four/learning_templates/basic_app', './basic_app']); you must configure this app with an AppConfig subclass with a 'path' class attribute.
+2020-01-20 12:00:41,166:   File "/var/www/juanga731_pythonanywhere_com_wsgi.py", line 54, in <module>
+2020-01-20 12:00:41,167:     django.setup()
+2020-01-20 12:00:41,167: 
+2020-01-20 12:00:41,167:   File "/usr/lib/python3.8/site-packages/django/__init__.py", line 24, in setup
+2020-01-20 12:00:41,167:     apps.populate(settings.INSTALLED_APPS)
+2020-01-20 12:00:41,167: 
+2020-01-20 12:00:41,168:   File "/usr/lib/python3.8/site-packages/django/apps/registry.py", line 91, in populate
+2020-01-20 12:00:41,168:     app_config = AppConfig.create(entry)
+2020-01-20 12:00:41,168: 
+2020-01-20 12:00:41,168:   File "/usr/lib/python3.8/site-packages/django/apps/config.py", line 165, in create
+2020-01-20 12:00:41,168:     return cls(app_name, app_module)
+2020-01-20 12:00:41,168: 
+2020-01-20 12:00:41,168:   File "/usr/lib/python3.8/site-packages/django/apps/config.py", line 40, in __init__
+2020-01-20 12:00:41,168:     self.path = self._path_from_module(app_module)
+2020-01-20 12:00:41,169: 
+2020-01-20 12:00:41,169:   File "/usr/lib/python3.8/site-packages/django/apps/config.py", line 70, in _path_from_module
+2020-01-20 12:00:41,169:     raise ImproperlyConfigured(
+2020-01-20 12:00:41,169: ***************************************************
+2020-01-20 12:00:41,169: If you're seeing an import error and don't know why,
+2020-01-20 12:00:41,169: we have a dedicated help page to help you debug: 
+2020-01-20 12:00:41,169: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2020-01-20 12:00:41,170: ***************************************************
+2020-01-20 13:24:11,208: Error running WSGI application
+2020-01-20 13:24:11,267: django.core.exceptions.ImproperlyConfigured: The app module <module 'basic_app' (namespace)> has multiple filesystem locations (['./basic_app', '/home/juanga731/Django_PortillaCourse_Deployment01/17-Django_Level_Four/learning_templates/basic_app']); you must configure this app with an AppConfig subclass with a 'path' class attribute.
+2020-01-20 13:24:11,268:   File "/var/www/juanga731_pythonanywhere_com_wsgi.py", line 54, in <module>
+2020-01-20 13:24:11,268:     django.setup()
+2020-01-20 13:24:11,268: 
+2020-01-20 13:24:11,269:   File "/usr/lib/python3.8/site-packages/django/__init__.py", line 24, in setup
+2020-01-20 13:24:11,269:     apps.populate(settings.INSTALLED_APPS)
+2020-01-20 13:24:11,269: 
+2020-01-20 13:24:11,270:   File "/usr/lib/python3.8/site-packages/django/apps/registry.py", line 91, in populate
+2020-01-20 13:24:11,270:     app_config = AppConfig.create(entry)
+2020-01-20 13:24:11,270: 
+2020-01-20 13:24:11,270:   File "/usr/lib/python3.8/site-packages/django/apps/config.py", line 165, in create
+2020-01-20 13:24:11,271:     return cls(app_name, app_module)
+2020-01-20 13:24:11,271: 
+2020-01-20 13:24:11,271:   File "/usr/lib/python3.8/site-packages/django/apps/config.py", line 40, in __init__
+2020-01-20 13:24:11,271:     self.path = self._path_from_module(app_module)
+2020-01-20 13:24:11,272: 
+2020-01-20 13:24:11,272:   File "/usr/lib/python3.8/site-packages/django/apps/config.py", line 70, in _path_from_module
+2020-01-20 13:24:11,272:     raise ImproperlyConfigured(
+2020-01-20 13:24:11,273: ***************************************************
+2020-01-20 13:24:11,273: If you're seeing an import error and don't know why,
+2020-01-20 13:24:11,273: we have a dedicated help page to help you debug: 
+2020-01-20 13:24:11,274: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2020-01-20 13:24:11,274: ***************************************************
+2020-01-20 13:30:45,218: Error running WSGI application
+2020-01-20 13:30:45,230: django.core.exceptions.ImproperlyConfigured: The app module <module 'basic_app' (namespace)> has multiple filesystem locations (['/home/juanga731/Django_PortillaCourse_Deployment01/17-Django_Level_Four/learning_templates/basic_app', './basic_app']); you must configure this app with an AppConfig subclass with a 'path' class attribute.
+2020-01-20 13:30:45,230:   File "/var/www/juanga731_pythonanywhere_com_wsgi.py", line 54, in <module>
+2020-01-20 13:30:45,230:     django.setup()
+2020-01-20 13:30:45,231: 
+2020-01-20 13:30:45,231:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/__init__.py", line 24, in setup
+2020-01-20 13:30:45,231:     apps.populate(settings.INSTALLED_APPS)
+2020-01-20 13:30:45,232: 
+2020-01-20 13:30:45,232:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/apps/registry.py", line 91, in populate
+2020-01-20 13:30:45,232:     app_config = AppConfig.create(entry)
+2020-01-20 13:30:45,232: 
+2020-01-20 13:30:45,232:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/apps/config.py", line 165, in create
+2020-01-20 13:30:45,233:     return cls(app_name, app_module)
+2020-01-20 13:30:45,233: 
+2020-01-20 13:30:45,233:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/apps/config.py", line 40, in __init__
+2020-01-20 13:30:45,233:     self.path = self._path_from_module(app_module)
+2020-01-20 13:30:45,234: 
+2020-01-20 13:30:45,234:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/apps/config.py", line 73, in _path_from_module
+2020-01-20 13:30:45,234:     "with a 'path' class attribute." % (module, paths))
+2020-01-20 13:30:45,234: ***************************************************
+2020-01-20 13:30:45,234: If you're seeing an import error and don't know why,
+2020-01-20 13:30:45,235: we have a dedicated help page to help you debug: 
+2020-01-20 13:30:45,235: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2020-01-20 13:30:45,235: ***************************************************
+2020-01-20 13:30:50,863: Error running WSGI application
+2020-01-20 13:30:50,864: django.core.exceptions.ImproperlyConfigured: The app module <module 'basic_app' (namespace)> has multiple filesystem locations (['/home/juanga731/Django_PortillaCourse_Deployment01/17-Django_Level_Four/learning_templates/basic_app', './basic_app']); you must configure this app with an AppConfig subclass with a 'path' class attribute.
+2020-01-20 13:30:50,864:   File "/var/www/juanga731_pythonanywhere_com_wsgi.py", line 54, in <module>
+2020-01-20 13:30:50,864:     django.setup()
+2020-01-20 13:30:50,864: 
+2020-01-20 13:30:50,864:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/__init__.py", line 24, in setup
+2020-01-20 13:30:50,865:     apps.populate(settings.INSTALLED_APPS)
+2020-01-20 13:30:50,865: 
+2020-01-20 13:30:50,865:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/apps/registry.py", line 91, in populate
+2020-01-20 13:30:50,865:     app_config = AppConfig.create(entry)
+2020-01-20 13:30:50,865: 
+2020-01-20 13:30:50,865:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/apps/config.py", line 165, in create
+2020-01-20 13:30:50,866:     return cls(app_name, app_module)
+2020-01-20 13:30:50,866: 
+2020-01-20 13:30:50,866:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/apps/config.py", line 40, in __init__
+2020-01-20 13:30:50,866:     self.path = self._path_from_module(app_module)
+2020-01-20 13:30:50,867: 
+2020-01-20 13:30:50,867:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/apps/config.py", line 73, in _path_from_module
+2020-01-20 13:30:50,867:     "with a 'path' class attribute." % (module, paths))
+2020-01-20 13:30:50,867: ***************************************************
+2020-01-20 13:30:50,867: If you're seeing an import error and don't know why,
+2020-01-20 13:30:50,868: we have a dedicated help page to help you debug: 
+2020-01-20 13:30:50,868: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2020-01-20 13:30:50,868: ***************************************************
+2020-01-20 13:34:04,818: Error running WSGI application
+2020-01-20 13:34:04,824: django.core.exceptions.ImproperlyConfigured: The app module <module 'basic_app' (namespace)> has multiple filesystem locations (['/home/juanga731/Django_PortillaCourse_Deployment01/17-Django_Level_Four/learning_templates/basic_app', './basic_app']); you must configure this app with an AppConfig subclass with a 'path' class attribute.
+2020-01-20 13:34:04,824:   File "/var/www/juanga731_pythonanywhere_com_wsgi.py", line 54, in <module>
+2020-01-20 13:34:04,824:     django.setup()
+2020-01-20 13:34:04,824: 
+2020-01-20 13:34:04,824:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/__init__.py", line 24, in setup
+2020-01-20 13:34:04,825:     apps.populate(settings.INSTALLED_APPS)
+2020-01-20 13:34:04,825: 
+2020-01-20 13:34:04,825:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/apps/registry.py", line 91, in populate
+2020-01-20 13:34:04,825:     app_config = AppConfig.create(entry)
+2020-01-20 13:34:04,826: 
+2020-01-20 13:34:04,826:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/apps/config.py", line 165, in create
+2020-01-20 13:34:04,826:     return cls(app_name, app_module)
+2020-01-20 13:34:04,826: 
+2020-01-20 13:34:04,826:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/apps/config.py", line 40, in __init__
+2020-01-20 13:34:04,827:     self.path = self._path_from_module(app_module)
+2020-01-20 13:34:04,827: 
+2020-01-20 13:34:04,827:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/apps/config.py", line 73, in _path_from_module
+2020-01-20 13:34:04,828:     "with a 'path' class attribute." % (module, paths))
+2020-01-20 13:34:04,828: ***************************************************
+2020-01-20 13:34:04,828: If you're seeing an import error and don't know why,
+2020-01-20 13:34:04,828: we have a dedicated help page to help you debug: 
+2020-01-20 13:34:04,829: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2020-01-20 13:34:04,829: ***************************************************
+2020-01-20 13:35:53,977: Error running WSGI application
+2020-01-20 13:35:53,994: django.core.exceptions.ImproperlyConfigured: The app module <module 'basic_app' (namespace)> has multiple filesystem locations (['/home/juanga731/Django_PortillaCourse_Deployment01/17-Django_Level_Four/learning_templates/basic_app', './basic_app']); you must configure this app with an AppConfig subclass with a 'path' class attribute.
+2020-01-20 13:35:53,994:   File "/var/www/juanga731_pythonanywhere_com_wsgi.py", line 58, in <module>
+2020-01-20 13:35:53,995:     application = get_wsgi_application()
+2020-01-20 13:35:53,995: 
+2020-01-20 13:35:53,995:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+2020-01-20 13:35:53,995:     django.setup(set_prefix=False)
+2020-01-20 13:35:53,995: 
+2020-01-20 13:35:53,995:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/__init__.py", line 24, in setup
+2020-01-20 13:35:53,996:     apps.populate(settings.INSTALLED_APPS)
+2020-01-20 13:35:53,996: 
+2020-01-20 13:35:53,996:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/apps/registry.py", line 91, in populate
+2020-01-20 13:35:53,996:     app_config = AppConfig.create(entry)
+2020-01-20 13:35:53,996: 
+2020-01-20 13:35:53,996:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/apps/config.py", line 165, in create
+2020-01-20 13:35:53,996:     return cls(app_name, app_module)
+2020-01-20 13:35:53,997: 
+2020-01-20 13:35:53,997:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/apps/config.py", line 40, in __init__
+2020-01-20 13:35:53,997:     self.path = self._path_from_module(app_module)
+2020-01-20 13:35:53,997: 
+2020-01-20 13:35:53,997:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/apps/config.py", line 73, in _path_from_module
+2020-01-20 13:35:53,997:     "with a 'path' class attribute." % (module, paths))
+2020-01-20 13:35:53,997: ***************************************************
+2020-01-20 13:35:53,997: If you're seeing an import error and don't know why,
+2020-01-20 13:35:53,998: we have a dedicated help page to help you debug: 
+2020-01-20 13:35:53,998: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2020-01-20 13:35:53,998: ***************************************************
+2020-01-20 13:35:54,572: Error running WSGI application
+2020-01-20 13:35:54,573: django.core.exceptions.ImproperlyConfigured: The app module <module 'basic_app' (namespace)> has multiple filesystem locations (['/home/juanga731/Django_PortillaCourse_Deployment01/17-Django_Level_Four/learning_templates/basic_app', './basic_app']); you must configure this app with an AppConfig subclass with a 'path' class attribute.
+2020-01-20 13:35:54,573:   File "/var/www/juanga731_pythonanywhere_com_wsgi.py", line 58, in <module>
+2020-01-20 13:35:54,573:     application = get_wsgi_application()
+2020-01-20 13:35:54,573: 
+2020-01-20 13:35:54,574:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+2020-01-20 13:35:54,574:     django.setup(set_prefix=False)
+2020-01-20 13:35:54,574: 
+2020-01-20 13:35:54,574:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/__init__.py", line 24, in setup
+2020-01-20 13:35:54,574:     apps.populate(settings.INSTALLED_APPS)
+2020-01-20 13:35:54,574: 
+2020-01-20 13:35:54,574:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/apps/registry.py", line 91, in populate
+2020-01-20 13:35:54,575:     app_config = AppConfig.create(entry)
+2020-01-20 13:35:54,575: 
+2020-01-20 13:35:54,575:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/apps/config.py", line 165, in create
+2020-01-20 13:35:54,575:     return cls(app_name, app_module)
+2020-01-20 13:35:54,575: 
+2020-01-20 13:35:54,575:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/apps/config.py", line 40, in __init__
+2020-01-20 13:35:54,576:     self.path = self._path_from_module(app_module)
+2020-01-20 13:35:54,576: 
+2020-01-20 13:35:54,576:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/apps/config.py", line 73, in _path_from_module
+2020-01-20 13:35:54,576:     "with a 'path' class attribute." % (module, paths))
+2020-01-20 13:35:54,576: ***************************************************
+2020-01-20 13:35:54,576: If you're seeing an import error and don't know why,
+2020-01-20 13:35:54,576: we have a dedicated help page to help you debug: 
+2020-01-20 13:35:54,577: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2020-01-20 13:35:54,577: ***************************************************
+2020-01-20 13:50:49,573: Error running WSGI application
+2020-01-20 13:50:49,581: ModuleNotFoundError: No module named 'learning_templates'
+2020-01-20 13:50:49,581:   File "/var/www/juanga731_pythonanywhere_com_wsgi.py", line 54, in <module>
+2020-01-20 13:50:49,582:     django.setup()
+2020-01-20 13:50:49,582: 
+2020-01-20 13:50:49,582:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+2020-01-20 13:50:49,582:     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+2020-01-20 13:50:49,583: 
+2020-01-20 13:50:49,583:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+2020-01-20 13:50:49,583:     self._setup(name)
+2020-01-20 13:50:49,583: 
+2020-01-20 13:50:49,584:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+2020-01-20 13:50:49,584:     self._wrapped = Settings(settings_module)
+2020-01-20 13:50:49,584: 
+2020-01-20 13:50:49,584:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/conf/__init__.py", line 157, in __init__
+2020-01-20 13:50:49,585:     mod = importlib.import_module(self.SETTINGS_MODULE)
+2020-01-20 13:50:49,585: ***************************************************
+2020-01-20 13:50:49,585: If you're seeing an import error and don't know why,
+2020-01-20 13:50:49,585: we have a dedicated help page to help you debug: 
+2020-01-20 13:50:49,585: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2020-01-20 13:50:49,586: ***************************************************
+2020-01-20 13:51:06,127: Error running WSGI application
+2020-01-20 13:51:06,128: ModuleNotFoundError: No module named 'learning_templates'
+2020-01-20 13:51:06,128:   File "/var/www/juanga731_pythonanywhere_com_wsgi.py", line 54, in <module>
+2020-01-20 13:51:06,128:     django.setup()
+2020-01-20 13:51:06,128: 
+2020-01-20 13:51:06,128:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+2020-01-20 13:51:06,129:     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+2020-01-20 13:51:06,129: 
+2020-01-20 13:51:06,129:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+2020-01-20 13:51:06,129:     self._setup(name)
+2020-01-20 13:51:06,129: 
+2020-01-20 13:51:06,130:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+2020-01-20 13:51:06,130:     self._wrapped = Settings(settings_module)
+2020-01-20 13:51:06,130: 
+2020-01-20 13:51:06,130:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/conf/__init__.py", line 157, in __init__
+2020-01-20 13:51:06,130:     mod = importlib.import_module(self.SETTINGS_MODULE)
+2020-01-20 13:51:06,131: ***************************************************
+2020-01-20 13:51:06,131: If you're seeing an import error and don't know why,
+2020-01-20 13:51:06,131: we have a dedicated help page to help you debug: 
+2020-01-20 13:51:06,131: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2020-01-20 13:51:06,132: ***************************************************
+2020-01-20 13:52:55,985: Error running WSGI application
+2020-01-20 13:52:55,990: ModuleNotFoundError: No module named 'learning_templates'
+2020-01-20 13:52:55,990:   File "/var/www/juanga731_pythonanywhere_com_wsgi.py", line 54, in <module>
+2020-01-20 13:52:55,991:     django.setup()
+2020-01-20 13:52:55,991: 
+2020-01-20 13:52:55,991:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+2020-01-20 13:52:55,991:     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+2020-01-20 13:52:55,991: 
+2020-01-20 13:52:55,992:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+2020-01-20 13:52:55,992:     self._setup(name)
+2020-01-20 13:52:55,992: 
+2020-01-20 13:52:55,992:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+2020-01-20 13:52:55,992:     self._wrapped = Settings(settings_module)
+2020-01-20 13:52:55,992: 
+2020-01-20 13:52:55,993:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/conf/__init__.py", line 157, in __init__
+2020-01-20 13:52:55,993:     mod = importlib.import_module(self.SETTINGS_MODULE)
+2020-01-20 13:52:55,993: ***************************************************
+2020-01-20 13:52:55,993: If you're seeing an import error and don't know why,
+2020-01-20 13:52:55,993: we have a dedicated help page to help you debug: 
+2020-01-20 13:52:55,993: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2020-01-20 13:52:55,993: ***************************************************
+2020-01-20 13:52:57,289: Error running WSGI application
+2020-01-20 13:52:57,290: ModuleNotFoundError: No module named 'learning_templates'
+2020-01-20 13:52:57,290:   File "/var/www/juanga731_pythonanywhere_com_wsgi.py", line 54, in <module>
+2020-01-20 13:52:57,290:     django.setup()
+2020-01-20 13:52:57,291: 
+2020-01-20 13:52:57,291:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+2020-01-20 13:52:57,291:     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+2020-01-20 13:52:57,291: 
+2020-01-20 13:52:57,291:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+2020-01-20 13:52:57,291:     self._setup(name)
+2020-01-20 13:52:57,292: 
+2020-01-20 13:52:57,292:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+2020-01-20 13:52:57,292:     self._wrapped = Settings(settings_module)
+2020-01-20 13:52:57,292: 
+2020-01-20 13:52:57,292:   File "/home/juanga731/.virtualenvs/django2/lib/python3.6/site-packages/django/conf/__init__.py", line 157, in __init__
+2020-01-20 13:52:57,292:     mod = importlib.import_module(self.SETTINGS_MODULE)
+2020-01-20 13:52:57,293: ***************************************************
+2020-01-20 13:52:57,293: If you're seeing an import error and don't know why,
+2020-01-20 13:52:57,293: we have a dedicated help page to help you debug: 
+2020-01-20 13:52:57,293: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2020-01-20 13:52:57,293: ***************************************************
